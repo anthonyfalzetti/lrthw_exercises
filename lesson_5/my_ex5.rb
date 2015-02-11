@@ -9,14 +9,13 @@ teeth = 'White'
 hair = 'Brown'
 
 # %s puts a String in as a substitution.
-puts "Let's talk about %s."  % name
-puts "Let's talk about %s." sprintf(name, )
+puts "Let's talk about #{name}."
 # %f changes the int into a float
-puts "He's %f inches tall." % height_inches
-puts "He's #{height_cm.to_i} centimeters tall."
+puts "He's #{height_inches} inches tall."
+puts "He's #{height_cm} centimeters tall."
 puts "He's #{weight_pounds} pounds heavy."
 # %d turns a float into an int
-puts "He's %d kilograms heavy." % weight_kg
+puts "He's #{weight_kg} kilograms heavy."
 puts "Actually that's not too heavy."
 puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
