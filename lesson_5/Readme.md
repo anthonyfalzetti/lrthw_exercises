@@ -16,4 +16,4 @@ puts "He's %d kilograms heavy." % weight_kg
 ```
 
 I am getting better at my reducing my errors, but alas I have made a new error:  
-`Favor format over String#%`. I guess this is a formatting issue.   
+`Favor format over String#%`. I guess this is a formatting issue. 
