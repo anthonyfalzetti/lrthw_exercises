@@ -46,3 +46,8 @@ lesson_8/ex8.rb:18:3: C: Indent the right brace the same as the start of the lin
 Rubocop was not pleased with me this time. Number one mistake that I made was a spacing issue.  
 When dealing with hashes alignment is key as is indention, so when going to a new line only two spaces for 
 alignment not four and drop the right curly brace at the same indention as the left curly brace. 
+
+###Q) Do you like string interpolation or format strings?  Why?
+a. I find that string interpolation is much easier than formatting strings, because it is easier to read
+and interpret. You aren't left wondering what the % represents you can see the variable being interpolated
+and go search for it by name. If the naming of the variable is done wisely then it should be easy to read as well. 
