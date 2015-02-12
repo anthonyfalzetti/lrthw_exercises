@@ -1,7 +1,7 @@
 # Defines variable types_of_people
 types_of_people = 10
 # assigned a string to variable name x
-x = "There are #{types_of_people} type of people."
+x = "There are #{types_of_people} types of people."
 # assigned a string to variable name binary
 binary = 'binary'
 # assigned a string to variable name do_not
