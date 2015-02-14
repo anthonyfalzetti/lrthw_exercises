@@ -1,13 +1,13 @@
 user_name = ARGV.first
 rank = ARGV.last
-prompt = '> '
+prompt = '...'
 
 puts "Hi #{user_name}, with a rank of #{rank}."
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{user_name}? ", prompt
 likes = $stdin.gets.chomp
 
-puts "Where do you live #{user_name}? ", "#{$0} >>"
+puts "Where do you live #{user_name}? ", prompt
 lives = $stdin.gets.chomp
 
 puts 'What kind of computer do you have? ', prompt
