@@ -1,23 +1,18 @@
-name = 'Zed A. Shaw'
-age = 35 # not a lie in 200-
-height_inches = 74 # inches
-height_cm = 74 * 2.54 # cm
-weight_pounds = 180 # Pounds
-weight_kg = 180 / 2.2046 # Kg
-eyes = 'Blue'
-teeth = 'White'
-hair = 'Brown'
+my_name = 'Zed A. Shaw'
+my_age = 35 # not a lie in 200-
+my_height = 74 # inches
+my_weight = 180 # Pounds
+my_eyes = 'Blue'
+my_teeth = 'White'
+my_hair = 'Brown'
 
 # %s puts a String in as a substitution.
-puts "Let's talk about #{name}"
-puts "He's #{height_inches} inches tall."
-puts "He's #{height_cm} centimeters tall."
-puts "He's #{weight_pounds} pounds heavy."
-puts "He's #{weight_kg} kilograms heavy."
+puts "Let's talk about #{my_name}"
+puts "He's #{my_height} inches tall."
+puts "He's #{my_weight} pounds heavy."
 puts "Actually that's not too heavy."
-puts "He's got #{eyes} eyes and #{hair} hair."
-puts "His teeth are usually #{teeth} depending on the coffee."
+puts "He's got #{my_eyes} eyes and #{my_hair} hair."
+puts "His teeth are usually #{my_teeth} depending on the coffee."
 
 # This line is tricky, try to get it exactly right
-puts age + height_inches + weight_pounds
-puts age + height_cm + weight_kg
+puts "If I add #{my_age}, #{my_height}, and #{my_weight} I get #{my_age + my_height + my_weight}."

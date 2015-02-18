@@ -21,5 +21,6 @@ puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
 
 # This line is tricky, try to get it exactly right
-puts age + height_inches + weight_pounds
-puts age + height_cm + weight_kg
+# This line is tricky, try to get it exactly right
+puts "If I add #{age}, #{height_inches}, and #{weight_pounds} I get #{age + height_inches
+  + weight_pounds}."
