@@ -22,5 +22,5 @@ puts "His teeth are usually #{teeth} depending on the coffee."
 
 # This line is tricky, try to get it exactly right
 # This line is tricky, try to get it exactly right
-puts "If I add #{age}, #{height_inches}, and #{weight_pounds} I get #{age + height_inches
-  + weight_pounds}."
+print "If I add #{age}, #{height_inches}, and #{weight_pounds}"
+puts " I get #{age + height_inches + weight_pounds}."
