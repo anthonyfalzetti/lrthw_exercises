@@ -3,7 +3,7 @@
 2. `...and those who #{do_not}."`
 3. `puts "I said: #{x}."`
 4. `puts "I also said: '#{y}'."`
-5. `puts joke_evaluation`
+6. `joke_evaluation = "Isn't that joke so funny?! #{hilarious}"`
 
 ##Are you sure there are only four places? How do you know? Maybe I like lying.  
 a. Yes he is a dirty liar. Please see above.
