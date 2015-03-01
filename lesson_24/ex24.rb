@@ -21,13 +21,14 @@ def secret_formula(started)
   jelly_beans = started * 500
   jars = jelly_beans / 1000
   crates = jars / 100
-  return jelly_beans, jars, crates 
+  puts jelly_beans, jars, crates
 end
 
-starting_point = 10000
+starting_point = 10_000
 beans, jars, crates = secret_formula(starting_point)
 
 puts "With a starting point of: #{starting_point}"
 puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 
-starting_point = starting_point / 10
+starting_point /= 10
+puts starting_point
